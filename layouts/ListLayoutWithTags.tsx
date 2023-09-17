@@ -93,7 +93,7 @@ export default function ListLayoutWithTags({
                   href={`/blog`}
                   className="font-bold uppercase text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-500"
                 >
-                  All Posts
+                  全ての投稿
                 </Link>
               )}
               <ul>
