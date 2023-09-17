@@ -28,7 +28,10 @@ export default function Footer() {
         </div>
 
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          {'Image by '}<Link href="https://www.freepik.com/free-vector/assortment-pretty-roses_1103115.htm#page=2&query=rose%20svg&position=42&from_view=keyword&track=ais">Freepik</Link>
+          Image by{' '}
+          <Link href="https://www.freepik.com/free-vector/assortment-pretty-roses_1103115.htm#page=2&query=rose%20svg&position=42&from_view=keyword&track=ais">
+            Freepik
+          </Link>
         </div>
       </div>
     </footer>
