@@ -31,18 +31,30 @@ export default function Home({ posts }) {
           </h1>
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            次回は <span className="text-3xl text-primary-500 dark:hover:text-primary-400">12/17 (日)</span> に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">亀戸中央公園</span> にてサザンカを見る予定です！ <br /> <br />
-            申し込みは「花を見る会」 <Link
-                href={`mailto:${siteMetadata.email}`}
-                className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              >
-                公式メール
-              </Link> あるいは <Link
-                  href="https://twitter.com/floral_party"
-                  className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                >
-                  公式 X
-              </Link> へお願いします！
+            次回は{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              12/17 (日)
+            </span>{' '}
+            に{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              亀戸中央公園
+            </span>{' '}
+            にてサザンカを見る予定です！ <br /> <br />
+            申し込みは「花を見る会」{' '}
+            <Link
+              href={`mailto:${siteMetadata.email}`}
+              className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              公式メール
+            </Link>{' '}
+            あるいは{' '}
+            <Link
+              href="https://twitter.com/floral_party"
+              className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              公式 X
+            </Link>{' '}
+            へお願いします！
           </p>
 
           <div className="space-y-2 pb-8 pt-6 md:space-y-5">
