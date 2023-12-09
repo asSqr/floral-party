@@ -65,7 +65,7 @@ export default function Home({ posts }) {
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {!posts.length && '投稿が見つかりませんでした'}
             {posts.slice(0, MAX_DISPLAY).map((post) => {
-              const { slug, date, title, summary, tags } = post
+              const { slug, date, title, summary, tags, images } = post
               return (
                 <li key={slug} className="py-12">
                   <article>
@@ -74,6 +74,15 @@ export default function Home({ posts }) {
                         <dt className="sr-only">Published on</dt>
                         <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                           <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
+                          {images && images.length > 0 && (
+                            <Image
+                              src={images[0]}
+                              alt={title}
+                              className="pt-6"
+                              width={220}
+                              height={220}
+                            />
+                          )}
                         </dd>
                       </dl>
                       <div className="space-y-5 xl:col-span-3">
