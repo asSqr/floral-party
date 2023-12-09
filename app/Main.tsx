@@ -15,7 +15,7 @@ export default function Home({ posts }) {
             「花を見る会」について
           </h1>
 
-          <p className="pt-6 pb-6 text-lg leading-7 text-gray-900 dark:text-gray-100">
+          <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
             「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023
             年 5 月に発足しました。
             <br />
@@ -24,6 +24,25 @@ export default function Home({ posts }) {
             当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。
             <br />
             当会の植物アドバイザーの持つ豊富な穴場リストを参考に開催場所を選定しています。
+          </p>
+
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            次回開催予定
+          </h1>
+
+          <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
+            次回は <span className="text-3xl text-primary-500 dark:hover:text-primary-400">12/17 (日)</span> に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">亀戸中央公園</span> にてサザンカを見る予定です！ <br /> <br />
+            申し込みは「花を見る会」 <Link
+                href={`mailto:${siteMetadata.email}`}
+                className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              >
+                公式メール
+              </Link> あるいは <Link
+                  href="https://twitter.com/floral_party"
+                  className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                >
+                  公式 X
+              </Link> へお願いします！
           </p>
 
           <div className="space-y-2 pb-8 pt-6 md:space-y-5">
