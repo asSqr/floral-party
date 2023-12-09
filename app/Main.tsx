@@ -24,6 +24,10 @@ export default function Home({ posts }) {
             当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。
             <br />
             当会の植物アドバイザーの持つ豊富な穴場リストを参考に開催場所を選定しています。
+            どうぞお気軽にご参加ください。話すのが苦手という方も、不安になる必要は全くありません。それぞれのペースで花を見ながら楽しみましょう。
+            <br />
+            (そういう主催者自身もどちらかというと内気です)
+            このような会の主催は初めてで，至らぬ点はあるかと思いますが、よろしくお願いします。
           </p>
 
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
