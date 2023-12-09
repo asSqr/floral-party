@@ -146,16 +146,9 @@ export default function ListLayoutWithTags({
                         </div>
                         <div className="flex prose max-w-none text-gray-500 dark:text-gray-400">
                           {images && images.length > 0 && (
-                            <Image
-                              src={images[0]}
-                              alt={title}
-                              width={200}
-                              height={200}
-                            />
+                            <Image src={images[0]} alt={title} width={200} height={200} />
                           )}
-                          <div className="pl-6 pt-6">
-                            {summary}
-                          </div>
+                          <div className="pl-6 pt-6">{summary}</div>
                         </div>
                       </div>
                     </article>
