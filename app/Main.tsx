@@ -11,13 +11,18 @@ export default function Home({ posts }) {
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">「花を見る会」について</h1>
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            「花を見る会」について
+          </h1>
 
           <p className="pt-6 pb-6 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023 年 5 月に発足しました。<br />
-            それからほぼ毎月開催しています。X (旧 Twitter) で募集したたくさんの方に参加いただきました。
-
-            当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。<br />
+            「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023
+            年 5 月に発足しました。
+            <br />
+            それからほぼ毎月開催しています。X (旧 Twitter)
+            で募集したたくさんの方に参加いただきました。
+            当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。
+            <br />
             当会の植物アドバイザーの持つ豊富な穴場リストを参考に開催場所を選定しています。
           </p>
 
@@ -90,14 +95,16 @@ export default function Home({ posts }) {
             </div>
           )}
 
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">過去の開催記録</h1>
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            過去の開催記録
+          </h1>
 
           <p className="pt-6 pb-6 text-lg leading-7 text-gray-900 dark:text-gray-100">
             過去の開催記録については以下をご覧ください：
           </p>
 
           <Link
-            href='/blog/1st-rose'
+            href="/blog/1st-rose"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             第 1 回 バラ (@与野公園)
@@ -105,41 +112,21 @@ export default function Home({ posts }) {
 
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-              <Image
-                alt='バラ 1'
-                src='/static/images/rose/rose-6.jpg'
-                width={640}
-                height={1000}
-              />
+              <Image alt="バラ 1" src="/static/images/rose/rose-6.jpg" width={640} height={1000} />
             </figure>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-              <Image
-                alt='バラ 2'
-                src='/static/images/rose/rose-8.jpg'
-                width={640}
-                height={1000}
-              />
+              <Image alt="バラ 2" src="/static/images/rose/rose-8.jpg" width={640} height={1000} />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-              <Image
-                alt='バラ 3'
-                src='/static/images/rose/rose-12.jpg'
-                width={640}
-                height={1000}
-              />
+              <Image alt="バラ 3" src="/static/images/rose/rose-12.jpg" width={640} height={1000} />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-              <Image
-                alt='バラ 4'
-                src='/static/images/rose/rose-10.jpg'
-                width={640}
-                height={1000}
-              />
+              <Image alt="バラ 4" src="/static/images/rose/rose-10.jpg" width={640} height={1000} />
             </div>
           </div>
 
           <Link
-            href='/blog/2nd-hydrangea'
+            href="/blog/2nd-hydrangea"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             第 2 回 アジサイ (@昭和記念公園)
@@ -148,32 +135,32 @@ export default function Home({ posts }) {
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アジサイ 1'
-                src='/static/images/hydrangea/hydrangea-1.jpg'
+                alt="アジサイ 1"
+                src="/static/images/hydrangea/hydrangea-1.jpg"
                 width={640}
                 height={1000}
               />
             </figure>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アジサイ 2'
-                src='/static/images/hydrangea/hydrangea-3.jpg'
+                alt="アジサイ 2"
+                src="/static/images/hydrangea/hydrangea-3.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アジサイ 3'
-                src='/static/images/hydrangea/hydrangea-12.jpg'
+                alt="アジサイ 3"
+                src="/static/images/hydrangea/hydrangea-12.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アジサイ 4'
-                src='/static/images/hydrangea/hydrangea-15.jpg'
+                alt="アジサイ 4"
+                src="/static/images/hydrangea/hydrangea-15.jpg"
                 width={640}
                 height={1000}
               />
@@ -181,7 +168,7 @@ export default function Home({ posts }) {
           </div>
 
           <Link
-            href='/blog/3rd-morning-glory'
+            href="/blog/3rd-morning-glory"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             第 3 回 アサガオ (@文京朝顔・ほおづき市)
@@ -190,32 +177,32 @@ export default function Home({ posts }) {
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アサガオ 1'
-                src='/static/images/morning-glory/morning-glory-1.jpg'
+                alt="アサガオ 1"
+                src="/static/images/morning-glory/morning-glory-1.jpg"
                 width={640}
                 height={1000}
               />
             </figure>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アサガオ 2'
-                src='/static/images/morning-glory/morning-glory-10.jpg'
+                alt="アサガオ 2"
+                src="/static/images/morning-glory/morning-glory-10.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アサガオ 3'
-                src='/static/images/morning-glory/morning-glory-13.jpg'
+                alt="アサガオ 3"
+                src="/static/images/morning-glory/morning-glory-13.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='アサガオ 4'
-                src='/static/images/morning-glory/morning-glory-16.jpg'
+                alt="アサガオ 4"
+                src="/static/images/morning-glory/morning-glory-16.jpg"
                 width={640}
                 height={1000}
               />
@@ -223,7 +210,7 @@ export default function Home({ posts }) {
           </div>
 
           <Link
-            href='/blog/4th-hurricane-lily'
+            href="/blog/4th-hurricane-lily"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             第 4 回 ヒガンバナ (@小石川植物園)
@@ -232,32 +219,32 @@ export default function Home({ posts }) {
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ヒガンバナ 1'
-                src='/static/images/hurricane-lily/hurricane-lily-10.jpg'
+                alt="ヒガンバナ 1"
+                src="/static/images/hurricane-lily/hurricane-lily-10.jpg"
                 width={640}
                 height={1000}
               />
             </figure>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ヒガンバナ 2'
-                src='/static/images/hurricane-lily/hurricane-lily-11.jpg'
+                alt="ヒガンバナ 2"
+                src="/static/images/hurricane-lily/hurricane-lily-11.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ヒガンバナ 3'
-                src='/static/images/hurricane-lily/hurricane-lily-30.jpg'
+                alt="ヒガンバナ 3"
+                src="/static/images/hurricane-lily/hurricane-lily-30.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ヒガンバナ 4'
-                src='/static/images/hurricane-lily/hurricane-lily-36.jpg'
+                alt="ヒガンバナ 4"
+                src="/static/images/hurricane-lily/hurricane-lily-36.jpg"
                 width={640}
                 height={1000}
               />
@@ -266,7 +253,7 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href='/blog/5th-cosmos'
+              href="/blog/5th-cosmos"
               className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               第 5 回 コスモス (@都市農業公園)
@@ -275,32 +262,32 @@ export default function Home({ posts }) {
             <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
               <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
-                  alt='コスモス 1'
-                  src='/static/images/cosmos/cosmos-5.jpg'
+                  alt="コスモス 1"
+                  src="/static/images/cosmos/cosmos-5.jpg"
                   width={640}
                   height={1000}
                 />
               </figure>
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
-                  alt='コスモス 2'
-                  src='/static/images/cosmos/cosmos-15.jpg'
+                  alt="コスモス 2"
+                  src="/static/images/cosmos/cosmos-15.jpg"
                   width={640}
                   height={1000}
                 />
               </div>
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
-                  alt='コスモス 3'
-                  src='/static/images/cosmos/cosmos-18.jpg'
+                  alt="コスモス 3"
+                  src="/static/images/cosmos/cosmos-18.jpg"
                   width={640}
                   height={1000}
                 />
               </div>
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
-                  alt='コスモス 4'
-                  src='/static/images/cosmos/cosmos-32.jpg'
+                  alt="コスモス 4"
+                  src="/static/images/cosmos/cosmos-32.jpg"
                   width={640}
                   height={1000}
                 />
@@ -309,7 +296,7 @@ export default function Home({ posts }) {
           </div>
 
           <Link
-            href='/blog/special-germany'
+            href="/blog/special-germany"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             特別編 マリーゴールド (@東京ドイツ村)
@@ -318,32 +305,32 @@ export default function Home({ posts }) {
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ドイツ 1'
-                src='/static/images/germany/germany-36.jpg'
+                alt="ドイツ 1"
+                src="/static/images/germany/germany-36.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ドイツ 2'
-                src='/static/images/germany/germany-37.jpg'
+                alt="ドイツ 2"
+                src="/static/images/germany/germany-37.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ドイツ 3'
-                src='/static/images/germany/germany-14.jpg'
+                alt="ドイツ 3"
+                src="/static/images/germany/germany-14.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='ドイツ 4'
-                src='/static/images/germany/germany-25.jpg'
+                alt="ドイツ 4"
+                src="/static/images/germany/germany-25.jpg"
                 width={640}
                 height={1000}
               />
@@ -351,7 +338,7 @@ export default function Home({ posts }) {
           </div>
 
           <Link
-            href='/blog/6th-metasequoia'
+            href="/blog/6th-metasequoia"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
           >
             第 6 回 メタセコイア (@トーベ・ヤンソンあけぼの子どもの森公園)
@@ -360,32 +347,32 @@ export default function Home({ posts }) {
           <div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='メタセコイア 1'
-                src='/static/images/metasequoia/metasequoia-21.jpg'
+                alt="メタセコイア 1"
+                src="/static/images/metasequoia/metasequoia-21.jpg"
                 width={640}
                 height={1000}
               />
             </figure>
             <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='メタセコイア 2'
-                src='/static/images/metasequoia/metasequoia-29.jpg'
+                alt="メタセコイア 2"
+                src="/static/images/metasequoia/metasequoia-29.jpg"
                 width={640}
                 height={1000}
               />
             </figure>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='メタセコイア 3'
-                src='/static/images/metasequoia/metasequoia-32.jpg'
+                alt="メタセコイア 3"
+                src="/static/images/metasequoia/metasequoia-32.jpg"
                 width={640}
                 height={1000}
               />
             </div>
             <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
               <Image
-                alt='メタセコイア 4'
-                src='/static/images/metasequoia/metasequoia-36.jpg'
+                alt="メタセコイア 4"
+                src="/static/images/metasequoia/metasequoia-36.jpg"
                 width={640}
                 height={1000}
               />
