@@ -29,7 +29,7 @@ export default function Home({ posts }) {
             どうぞお気軽にご参加ください。話すのが苦手という方も、不安になる必要は全くありません。それぞれのペースで花を見ながら楽しみましょう。
             <br />
             (そういう主催者自身もどちらかというと内気です) <br /> <br />
-            このような会の主催は初めてで，至らぬ点はあるかと思いますが、よろしくお願いします。
+            このような会の主催は初めてで，至らぬ点もあるかと思いますが、よろしくお願いします。
           </p>
 
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
