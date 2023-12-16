@@ -11,9 +11,9 @@ export async function generateMetadata({ params }: { params: { tag: string } }):
   const tag = decodeURI(params.tag)
   return genPageMetadata({
     title: tag,
-    description: `${siteMetadata.title} ${tag} tagged content`,
+    description: `${siteMetadata.title} タグ：${tag}`,
     alternates: {
-      canonical: './',
+      canonical: 'https://www.floral-party.com/',
       types: {
         'application/rss+xml': `${siteMetadata.siteUrl}/tags/${tag}/feed.xml`,
       },

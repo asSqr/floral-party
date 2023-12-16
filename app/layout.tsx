@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: './',
+    canonical: 'https://www.floral-party.com/',
     types: {
       'application/rss+xml': `${siteMetadata.siteUrl}/feed.xml`,
     },
