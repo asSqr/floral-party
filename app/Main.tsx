@@ -44,23 +44,16 @@ export default function Home({ posts }) {
               京王百草園
             </span>{' '}
             にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-            スイセン
-            </span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">スイセン</span>{' '}
             と{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              ロウバイ
-            </span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ロウバイ</span>{' '}
             を見る予定です！ <br /> <br />
             次々回は{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
               2/25 (日)
             </span>{' '}
             に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">皇居</span>{' '}
-            にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              ウメ
-            </span>{' '}
+            にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ウメ</span>{' '}
             を見る予定です！ <br /> <br /> <br />
             申し込みは「花を見る会」{' '}
             <Link
@@ -175,20 +168,10 @@ export default function Home({ posts }) {
 
             <div className="pt-8 flex flex-wrap overflow-hidden">
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-                <Image
-                  alt="バラ 1"
-                  src="/static/images/rose/rose-6.jpg"
-                  width={420}
-                  height={800}
-                />
+                <Image alt="バラ 1" src="/static/images/rose/rose-6.jpg" width={420} height={800} />
               </div>
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-                <Image
-                  alt="バラ 2"
-                  src="/static/images/rose/rose-8.jpg"
-                  width={420}
-                  height={800}
-                />
+                <Image alt="バラ 2" src="/static/images/rose/rose-8.jpg" width={420} height={800} />
               </div>
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
