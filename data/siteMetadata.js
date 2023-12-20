@@ -6,7 +6,7 @@ const siteMetadata = {
   description: '「花を見る会」の公式サイトです',
   language: 'ja-jp',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://floral-party.vercel.app',
+  siteUrl: 'https://www.floral-party.com',
   siteRepo: 'https://github.com/asSqr/floral-party',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
