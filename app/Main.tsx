@@ -38,20 +38,7 @@ export default function Home({ posts }) {
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
             次回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">1/21 (日)</span>{' '}
-            に{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              京王百草園
-            </span>{' '}
-            にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">スイセン</span>{' '}
-            と{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ロウバイ</span>{' '}
-            を見る予定です！ <br /> <br />
-            次々回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              2/25 (日)
-            </span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">2/25 (日)</span>{' '}
             に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">皇居</span>{' '}
             にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ウメ</span>{' '}
             を見る予定です！ <br /> <br /> <br />
@@ -493,6 +480,50 @@ export default function Home({ posts }) {
                 <Image
                   alt="サザンカ 4"
                   src="/static/images/sasanqua/sasanqua-62.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/8th-daffodil-wintersweet"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 8 回 スイセン・ロウバイ (@京王百草園)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="スイセン・ロウバイ 1"
+                  src="/static/images/daffo-win/daffo-win-20.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="スイセン・ロウバイ 2"
+                  src="/static/images/daffo-win/daffo-win-39.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="スイセン・ロウバイ 3"
+                  src="/static/images/daffo-win/daffo-win-44.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="スイセン・ロウバイ 4"
+                  src="/static/images/daffo-win/daffo-win-56.jpg"
                   width={420}
                   height={800}
                 />
