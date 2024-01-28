@@ -38,9 +38,7 @@ export default function Home({ posts }) {
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
             次回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              2/25 (日)
-            </span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">2/25 (日)</span>{' '}
             に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">皇居</span>{' '}
             にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ウメ</span>{' '}
             を見る予定です！ <br /> <br /> <br />
