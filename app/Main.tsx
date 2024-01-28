@@ -38,17 +38,6 @@ export default function Home({ posts }) {
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
             次回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">1/21 (日)</span>{' '}
-            に{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              京王百草園
-            </span>{' '}
-            にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">スイセン</span>{' '}
-            と{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ロウバイ</span>{' '}
-            を見る予定です！ <br /> <br />
-            次々回は{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
               2/25 (日)
             </span>{' '}
