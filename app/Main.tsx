@@ -43,9 +43,17 @@ export default function Home({ posts }) {
             にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ウメ</span>{' '}
             を見る予定です！ <br /> <br /> <br />
             次々回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">3/31 (日)</span>{' '}
-            に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">国営昭和記念公園</span>{' '}
-            にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ナノハナ・サクラ・チューリップ</span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              3/31 (日)
+            </span>{' '}
+            に{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              国営昭和記念公園
+            </span>{' '}
+            にて{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              ナノハナ・サクラ・チューリップ
+            </span>{' '}
             を見る予定です！ <br /> <br /> <br />
             申し込みは「花を見る会」{' '}
             <Link
