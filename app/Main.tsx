@@ -37,15 +37,8 @@ export default function Home({ posts }) {
           </h1>
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            次回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">2/18 (日)</span>{' '}
-            に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">皇居</span>{' '}
-            にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ウメ</span>{' '}
-            を見る予定です！ <br /> <br /> <br />
             次々回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              3/31 (日)
-            </span>{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">3/31 (日)</span>{' '}
             に{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
               国営昭和記念公園
@@ -53,6 +46,19 @@ export default function Home({ posts }) {
             にて{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
               ナノハナ・サクラ・チューリップ
+            </span>{' '}
+            を見る予定です！ <br /> <br /> <br />
+            次々回は{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              4/28 (日)
+            </span>{' '}
+            に{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              国営昭和記念公園
+            </span>{' '}
+            にて{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              ネモフィラ
             </span>{' '}
             を見る予定です！ <br /> <br /> <br />
             申し込みは「花を見る会」{' '}
@@ -537,6 +543,50 @@ export default function Home({ posts }) {
                 <Image
                   alt="スイセン・ロウバイ 4"
                   src="/static/images/daffo-win/daffo-win-56.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/9th-plum"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 9 回 ウメ (@皇居)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ウメ 1"
+                  src="/static/images/plum/plum-24.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ウメ 2"
+                  src="/static/images/plum/plum-35.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ウメ 3"
+                  src="/static/images/plum/plum-36.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ウメ 4"
+                  src="/static/images/plum/plum-51.jpg"
                   width={420}
                   height={800}
                 />
