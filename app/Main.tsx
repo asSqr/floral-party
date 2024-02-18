@@ -562,7 +562,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="ウメ 1"
-                  src="/static/images/daffo-win/daffo-win-24.jpg"
+                  src="/static/images/plum/plum-24.jpg"
                   width={420}
                   height={800}
                 />
@@ -570,7 +570,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="ウメ 2"
-                  src="/static/images/daffo-win/daffo-win-35.jpg"
+                  src="/static/images/plum/plum-35.jpg"
                   width={420}
                   height={800}
                 />
@@ -578,7 +578,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="ウメ 3"
-                  src="/static/images/daffo-win/daffo-win-36.jpg"
+                  src="/static/images/plum/plum-36.jpg"
                   width={420}
                   height={800}
                 />
@@ -586,7 +586,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="ウメ 4"
-                  src="/static/images/daffo-win/daffo-win-51.jpg"
+                  src="/static/images/plum/plum-51.jpg"
                   width={420}
                   height={800}
                 />
