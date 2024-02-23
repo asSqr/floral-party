@@ -16,6 +16,9 @@ export default function Home({ posts }) {
           </h1>
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
+            「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。まれに首都圏内ならば遠出もします。
+            <br />
+            <br />
             「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023
             年 5 月に発足しました。
             <br />
@@ -30,6 +33,11 @@ export default function Home({ posts }) {
             <br />
             (そういう主催者自身もどちらかというと内気です) <br /> <br />
             このような会の主催は初めてで，至らぬ点もあるかと思いますが、よろしくお願いします。
+            <br /> <br />
+            「花を見る会」でいろいろな花を見るようになってから、主催者は自然はこんなに美しいのかと気づきました。花の名前もわかるようになり、他の場所でも目につくようになりました。紅葉の味わいもわかるようになりました。
+            <br />
+            <br />
+            当会は自然の趣深さを感じるいい機会となるイベントなのではないかと思っています。
           </p>
 
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
