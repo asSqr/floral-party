@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: '「花を見る会」公式サイト',
+  title: '「花を見る会」公式サイト ––東京都内で交流しながら花を鑑賞––',
   author: 'narratelr',
-  headerTitle: '「花を見る会」公式サイト',
-  description: '「花を見る会」の公式サイトです',
+  headerTitle: '「花を見る会」公式サイト ––東京都内で交流しながら花を鑑賞––',
+  description: '「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。',
   language: 'ja-jp',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.floral-party.com',
