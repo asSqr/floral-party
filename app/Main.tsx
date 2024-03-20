@@ -45,7 +45,7 @@ export default function Home({ posts }) {
           </h1>
 
           <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            次々回は{' '}
+            次回は{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">3/31 (日)</span>{' '}
             に{' '}
             <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
