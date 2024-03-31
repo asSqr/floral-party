@@ -601,7 +601,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="サクラ・チューリップ・ナノハナ 1"
-                  src="/static/images/sakura-tulip-rape/sakura-tulip-rape-59.jpg"
+                  src="/static/images/sakura-tulip-rape/sakura-tulip-rape-12.jpg"
                   width={420}
                   height={800}
                 />
