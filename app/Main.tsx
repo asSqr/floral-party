@@ -591,7 +591,7 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/10th-sakura-tulip-rape-flower"
+              href="/blog/10th-sakura-tulip-canola-flower"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               第 10 回 サクラ・チューリップ・ナノハナ (@昭和記念公園)
@@ -601,7 +601,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="サクラ・チューリップ・ナノハナ 1"
-                  src="/static/images/sakura-tulip-rape-flower/sakura-tulip-rape-flower-12.jpg"
+                  src="/static/images/sakura-tulip-canola-flower/sakura-tulip-canola-flower-12.jpg"
                   width={420}
                   height={800}
                 />
@@ -609,7 +609,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="サクラ・チューリップ・ナノハナ 2"
-                  src="/static/images/sakura-tulip-rape-flower/sakura-tulip-rape-flower-100.jpg"
+                  src="/static/images/sakura-tulip-canola-flower/sakura-tulip-canola-flower-100.jpg"
                   width={420}
                   height={800}
                 />
@@ -617,7 +617,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="サクラ・チューリップ・ナノハナ 3"
-                  src="/static/images/sakura-tulip-rape-flower/sakura-tulip-rape-flower-109.jpg"
+                  src="/static/images/sakura-tulip-canola-flower/sakura-tulip-canola-flower-109.jpg"
                   width={420}
                   height={800}
                 />
@@ -625,7 +625,7 @@ export default function Home({ posts }) {
               <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
                 <Image
                   alt="サクラ・チューリップ・ナノハナ 4"
-                  src="/static/images/sakura-tulip-rape-flower/sakura-tulip-rape-flower-117.jpg"
+                  src="/static/images/sakura-tulip-canola-flower/sakura-tulip-canola-flower-117.jpg"
                   width={420}
                   height={800}
                 />
