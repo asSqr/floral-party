@@ -56,6 +56,17 @@ export default function Home({ posts }) {
               ネモフィラ
             </span>{' '}
             を見る予定です！ <br /> <br /> <br />
+            次々回は{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              5/19 (日)
+            </span>{' '}
+            に{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+              ポピー・ハッピースクエア
+            </span>{' '}
+            にて{' '}
+            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ポピー</span>{' '}
+            を見る予定です！ <br /> <br /> <br />
             申し込みは「花を見る会」{' '}
             <Link
               href={`mailto:${siteMetadata.email}`}
