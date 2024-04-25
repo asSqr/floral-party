@@ -382,7 +382,7 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/special-germany"
+              href="/blog/special-1st-germany"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               特別編 マリーゴールド (@東京ドイツ村)
@@ -646,7 +646,7 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/special-azalea"
+              href="/blog/special-2nd-azalea"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               特別編 ツツジ (@根津神社)
