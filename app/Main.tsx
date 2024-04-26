@@ -348,7 +348,7 @@ export default function Home({ posts }) {
               href="/blog/special-1st-germany"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
-              特別編 マリーゴールド (@東京ドイツ村)
+              特別編 第 1 回 マリーゴールド (@東京ドイツ村)
             </Link>
 
             <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
@@ -612,7 +612,7 @@ export default function Home({ posts }) {
               href="/blog/special-2nd-azalea"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
-              特別編 ツツジ (@根津神社)
+              特別編 第 2 回 ツツジ (@根津神社)
             </Link>
 
             <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
@@ -644,6 +644,50 @@ export default function Home({ posts }) {
                 <Image
                   alt="ツツジ 4"
                   src="/static/images/azalea/azalea-94.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/special-3rd-wisteria"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              特別編 第 3 回 フジ (@あしかがフラワーパーク)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 1"
+                  src="/static/images/wisteria/wisteria-36.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 2"
+                  src="/static/images/wisteria/wisteria-46.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 3"
+                  src="/static/images/wisteria/wisteria-81.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 4"
+                  src="/static/images/wisteria/wisteria-114.jpg"
                   width={420}
                   height={800}
                 />
