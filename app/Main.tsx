@@ -3,6 +3,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import Image from '@/components/Image'
+import NextSchedules from '@/components/NextSchedules'
 
 const MAX_DISPLAY = 5
 
@@ -44,45 +45,7 @@ export default function Home({ posts }) {
             次回開催予定
           </h1>
 
-          <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            次回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">4/28 (日)</span>{' '}
-            に{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              国営昭和記念公園
-            </span>{' '}
-            にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              ネモフィラ
-            </span>{' '}
-            を見る予定です！ <br /> <br /> <br />
-            次々回は{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              5/19 (日)
-            </span>{' '}
-            に{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-              ポピー・ハッピースクエア
-            </span>{' '}
-            にて{' '}
-            <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ポピー</span>{' '}
-            を見る予定です！ <br /> <br /> <br />
-            申し込みは「花を見る会」{' '}
-            <Link
-              href={`mailto:${siteMetadata.email}`}
-              className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            >
-              公式メール
-            </Link>{' '}
-            あるいは{' '}
-            <Link
-              href="https://twitter.com/floral_party"
-              className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            >
-              公式 X
-            </Link>{' '}
-            へお願いします！
-          </p>
+          <NextSchedules />
 
           <div className="space-y-2 pb-8 pt-6 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -91,63 +54,66 @@ export default function Home({ posts }) {
           </div>
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {!posts.length && '投稿が見つかりませんでした'}
-            {posts.slice(0, MAX_DISPLAY).map((post) => {
-              const { slug, date, title, summary, tags, images } = post
-              return (
-                <li key={slug} className="py-12">
-                  <article>
-                    <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                      <dl>
-                        <dt className="sr-only">Published on</dt>
-                        <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                          <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
-                          {images && images.length > 0 && (
-                            <Image
-                              src={images[0]}
-                              alt={title}
-                              className="pt-6"
-                              width={220}
-                              height={220}
-                            />
-                          )}
-                        </dd>
-                      </dl>
-                      <div className="space-y-5 xl:col-span-3">
-                        <div className="space-y-6">
-                          <div>
-                            <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                              <Link
-                                href={`/blog/${slug}`}
-                                className="text-gray-900 dark:text-gray-100"
-                              >
-                                {title}
-                              </Link>
-                            </h2>
-                            <div className="flex flex-wrap">
-                              {tags.map((tag) => (
-                                <Tag key={tag} text={tag} />
-                              ))}
+            {posts
+              .filter((post) => !post.tags.includes('募集'))
+              .slice(0, MAX_DISPLAY)
+              .map((post) => {
+                const { slug, date, title, summary, tags, images } = post
+                return (
+                  <li key={slug} className="py-12">
+                    <article>
+                      <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                        <dl>
+                          <dt className="sr-only">Published on</dt>
+                          <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                            <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
+                            {images && images.length > 0 && (
+                              <Image
+                                src={images[0]}
+                                alt={title}
+                                className="pt-6"
+                                width={220}
+                                height={220}
+                              />
+                            )}
+                          </dd>
+                        </dl>
+                        <div className="space-y-5 xl:col-span-3">
+                          <div className="space-y-6">
+                            <div>
+                              <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                                <Link
+                                  href={`/blog/${slug}`}
+                                  className="text-gray-900 dark:text-gray-100"
+                                >
+                                  {title}
+                                </Link>
+                              </h2>
+                              <div className="flex flex-wrap">
+                                {tags.map((tag) => (
+                                  <Tag key={tag} text={tag} />
+                                ))}
+                              </div>
+                            </div>
+                            <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                              {summary}
                             </div>
                           </div>
-                          <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                            {summary}
+                          <div className="text-base font-medium leading-6">
+                            <Link
+                              href={`/blog/${slug}`}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                              aria-label={`"${title}" を読みましょう`}
+                            >
+                              もっと見る &rarr;
+                            </Link>
                           </div>
                         </div>
-                        <div className="text-base font-medium leading-6">
-                          <Link
-                            href={`/blog/${slug}`}
-                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                            aria-label={`"${title}" を読みましょう`}
-                          >
-                            もっと見る &rarr;
-                          </Link>
-                        </div>
                       </div>
-                    </div>
-                  </article>
-                </li>
-              )
-            })}
+                    </article>
+                  </li>
+                )
+              })}
           </ul>
 
           {posts.length > MAX_DISPLAY && (
@@ -382,10 +348,10 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/special-germany"
+              href="/blog/special-1st-germany"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
-              特別編 マリーゴールド (@東京ドイツ村)
+              特別編 第 1 回 マリーゴールド (@東京ドイツ村)
             </Link>
 
             <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
@@ -646,10 +612,10 @@ export default function Home({ posts }) {
 
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/special-azalea"
+              href="/blog/special-2nd-azalea"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
-              特別編 ツツジ (@根津神社)
+              特別編 第 2 回 ツツジ (@根津神社)
             </Link>
 
             <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
@@ -681,6 +647,50 @@ export default function Home({ posts }) {
                 <Image
                   alt="ツツジ 4"
                   src="/static/images/azalea/azalea-94.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/special-3rd-wisteria"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              特別編 第 3 回 フジ (@あしかがフラワーパーク)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 1"
+                  src="/static/images/wisteria/wisteria-36.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 2"
+                  src="/static/images/wisteria/wisteria-46.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 3"
+                  src="/static/images/wisteria/wisteria-59.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="フジ 4"
+                  src="/static/images/wisteria/wisteria-114.jpg"
                   width={420}
                   height={800}
                 />
