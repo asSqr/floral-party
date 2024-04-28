@@ -33,7 +33,6 @@ export default function Home({ posts }) {
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {!posts.length && '投稿が見つかりませんでした'}
             {posts
-              .filter((post) => !post.tags.includes('募集'))
               .slice(0, MAX_DISPLAY)
               .map((post) => {
                 const { slug, date, title, summary, tags, images } = post

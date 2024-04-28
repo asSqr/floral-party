@@ -5,5 +5,7 @@ import Main from './Main'
 export default async function Page() {
   const sortedPosts = sortPosts(allBlogs)
   const posts = allCoreContent(sortedPosts)
+    .filter((post) => !post.tags.includes('募集'))
+
   return <Main posts={posts} />
 }
