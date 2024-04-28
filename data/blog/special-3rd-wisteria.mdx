@@ -25,15 +25,11 @@ bibliography: references-data.bib
 <TOCInline toc={props.toc} exclude=".*フジ.*" asDisclosure /> <br />
 
 ### 「花を見る会」とは
-「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。まれに首都圏内ならば遠出もします。
+import About from './components/About';
 
-「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023 年 5 月に発足しました。<br />
-それからほぼ毎月開催しています。X (旧 Twitter) で募集したたくさんの方に参加いただきました。
+<About className="text-md" />
 
-当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。<br />
-当会の植物アドバイザーの持つ豊富な穴場リストを参考に開催場所を選定しています。
-
-どうぞお気軽にご参加ください。話すのが苦手という方も、不安になる必要は全くありません。それぞれのペースで花を見ながら楽しみましょう。
+<br />
 
 詳しくは [当サイト トップ](/) もご覧ください！
 
@@ -80,11 +76,9 @@ GW ど真ん中は避けたはずなのですが、非常に混雑していま�
 <br />
 
 ### 次回開催予定
-次回は <span className="text-3xl text-primary-500 dark:hover:text-primary-400">4/28 (日)</span> に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">都立舎人公園</span> にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ネモフィラ</span> を見る予定です！ <br /> <br /> <br />
-次々回は <span className="text-3xl text-primary-500 dark:hover:text-primary-400">5/19 (日)</span> に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ポピー・ハッピースクエア</span> にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ポピー</span> を見る予定です！ <br /> <br />
-イベント詳細ページは <span className="text-3xl text-primary-400 dark:hover:text-primary-300">[こちら](/blog/events/12th-poppy)</span>
-<br /> <br />
-申し込みは「花を見る会」<a href={'mailto:floral.party2023@gmail.com'} className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">公式メール</a> あるいは <a href="https://twitter.com/floral_party" className="text-3xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">公式 X</a> へお願いします！ <br />
+import NextSchedules from './components/NextSchedules';
+
+<NextSchedules />
 
 <br />
 
