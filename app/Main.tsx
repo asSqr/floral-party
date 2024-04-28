@@ -4,6 +4,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import Image from '@/components/Image'
 import NextSchedules from '@/components/NextSchedules'
+import About from '@/components/About'
 
 const MAX_DISPLAY = 5
 
@@ -16,30 +17,7 @@ export default function Home({ posts }) {
             「花を見る会」について
           </h1>
 
-          <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
-            「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。まれに首都圏内ならば遠出もします。
-            <br />
-            <br />
-            「花を見る会」は、「花見という身近なテーマで色々な人と交流したい！」という願いの下、2023
-            年 5 月に発足しました。
-            <br />
-            それからほぼ毎月開催しています。X (旧 Twitter)
-            で募集したたくさんの方に参加いただきました。
-            <br /> <br />
-            当会では有名な名所ではなく、できるだけ空いている穴場のスポットで花を見ることをコンセプトとしています。
-            <br />
-            当会の植物アドバイザーの持つ豊富な穴場リストを参考に開催場所を選定しています。
-            <br /> <br />
-            どうぞお気軽にご参加ください。話すのが苦手という方も、不安になる必要は全くありません。それぞれのペースで花を見ながら楽しみましょう。
-            <br />
-            (そういう主催者自身もどちらかというと内気です) <br /> <br />
-            このような会の主催は初めてで，至らぬ点もあるかと思いますが、よろしくお願いします。
-            <br /> <br />
-            「花を見る会」でいろいろな花を見るようになってから、主催者は自然はこんなに美しいのかと気づきました。花の名前もわかるようになり、他の場所でも目につくようになりました。紅葉の味わいもわかるようになりました。
-            <br />
-            <br />
-            当会は自然の趣深さを感じるいい機会となるイベントなのではないかと思っています。
-          </p>
+          <About className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100" />
 
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             次回開催予定
@@ -691,6 +669,50 @@ export default function Home({ posts }) {
                 <Image
                   alt="フジ 4"
                   src="/static/images/wisteria/wisteria-114.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/11th-nemophila"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 11 回 ネモフィラ (@都立舎人公園)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ネモフィラ 1"
+                  src="/static/images/nemophila/nemophila-12.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ネモフィラ 2"
+                  src="/static/images/nemophila/nemophila-30.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ネモフィラ 3"
+                  src="/static/images/nemophila/nemophila-49.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ネモフィラ 4"
+                  src="/static/images/nemophila/nemophila-63.jpg"
                   width={420}
                   height={800}
                 />
