@@ -97,8 +97,19 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     )
   }
 
-  const prev = sortedCoreContents[postIndex + 1]
-  const next = sortedCoreContents[postIndex - 1]
+  const sortedCoreContentsWithoutEvents = sortedCoreContents.filter(
+    (post) => !post.tags.includes('募集')
+  )
+  const postIndexWithoutEvents = sortedCoreContentsWithoutEvents.findIndex((p) => p.slug === slug)
+
+  const prev =
+    postIndexWithoutEvents === -1
+      ? undefined
+      : sortedCoreContentsWithoutEvents[postIndexWithoutEvents + 1]
+  const next =
+    postIndexWithoutEvents === -1
+      ? undefined
+      : sortedCoreContentsWithoutEvents[postIndexWithoutEvents - 1]
   const post = allBlogs.find((p) => p.slug === slug) as Blog
   const authorList = post?.authors || ['default']
   const authorDetails = authorList.map((author) => {
