@@ -100,7 +100,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Support for multiple authors
 - 3 different blog layouts
 - 2 different blog listing layouts
-- Support for nested routing of blog post
+- Support for nested routing of blog posts
 - Projects page
 - Preconfigured security headers
 - SEO friendly with RSS feed, sitemaps and more!
