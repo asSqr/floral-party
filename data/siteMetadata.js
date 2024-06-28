@@ -3,13 +3,14 @@ const siteMetadata = {
   title: '「花を見る会」公式サイト –東京都内で交流しながら花を鑑賞–',
   author: 'narratelr',
   headerTitle: '「花を見る会」公式サイト',
-  description: '「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。まれに首都圏内ならば遠出もします。',
+  description:
+    '「花を見る会」は毎月主に東京都内で交流しながら花を鑑賞しお茶をする、誰でも参加可能な会です。花に詳しい必要もなく、学生・社会人問わず誰でも気軽に参加することができます。アドバイザーによる解説付きです。まれに首都圏内ならば遠出もします。',
   language: 'ja-jp',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.floral-party.com',
   siteRepo: 'https://github.com/asSqr/floral-party',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/twitter-card.jpg',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'floral.party2023@gmail.com',
   github: 'https://github.com',
