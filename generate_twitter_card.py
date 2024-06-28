@@ -66,7 +66,7 @@ result_image = vconcat_resize(
 logo_card_image = cv2.imread(LOGO_CARD_IMAGE_PATH)
 
 logo_width = result_image.shape[1] // 32 * 31
-logo_height = result_image.shape[0] // 8 * 3
+logo_height = result_image.shape[0] // 16 * 5
 margin_width = (result_image.shape[1] - logo_width) // 2
 margin_height = (result_image.shape[0] - logo_height) // 2
 
