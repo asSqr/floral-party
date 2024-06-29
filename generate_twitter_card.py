@@ -78,6 +78,6 @@ alpha = 0.7
 result_image[y1:y2, x1:x2] = result_image[y1:y2, x1:x2] * (1 - alpha) + \
     logo_card_image[y1-margin_height:y2-margin_height, x1-margin_width:x2-margin_width] * alpha
 
-result_image = cv2.resize(result_image, (1200, 1068))    
+result_image = cv2.resize(result_image, (1000, 880))    
 
 cv2.imwrite('./twitter_card_result.jpg', result_image)
