@@ -5,7 +5,7 @@ const NextSchedules = () => {
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">7/21 (日)</span> に{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">水元公園</span> にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-        ハス・スイレン・オニバス
+        ハス・オニバス・アサザ
       </span>{' '}
       を見る予定です！ <br /> <br />
       イベント詳細ページは{' '}
