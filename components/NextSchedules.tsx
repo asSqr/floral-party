@@ -18,9 +18,7 @@ const NextSchedules = () => {
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
         9/15 (日)
       </span> に{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-        神代植物公園 大温室夜間公開
-      </span>{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">神代植物公園</span>{' '}
       にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
         熱帯スイレン・シクンシ・イエライシャン
