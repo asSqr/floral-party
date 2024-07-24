@@ -2,15 +2,13 @@ const NextSchedules = () => {
   return (
     <p className="pt-10 pb-10 text-lg leading-7 text-gray-900 dark:text-gray-100">
       次回は{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">7/21 (日)</span> に{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">水元公園</span> にて{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-        ハス・スイレン・オニバス
-      </span>{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">8/11 (日)</span> に{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">昭和記念公園</span>{' '}
+      にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ヒマワリ</span>{' '}
       を見る予定です！ <br /> <br />
       イベント詳細ページは{' '}
       <a
-        href="/blog/events/14th-lotus-waterlily"
+        href="/blog/events/15th-sunflower"
         className="text-3xl text-primary-400 dark:hover:text-primary-300"
       >
         こちら
@@ -18,14 +16,17 @@ const NextSchedules = () => {
       <br /> <br />
       次々回は{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
-        8/11 (日)
+        9/15 (日)
       </span> に{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">昭和記念公園</span>{' '}
-      にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">ヒマワリ</span>{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">神代植物公園</span>{' '}
+      にて{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        熱帯スイレン・シクンシ・イエライシャン
+      </span>{' '}
       を見る予定です！ <br /> <br />
       イベント詳細ページは{' '}
       <a
-        href="/blog/events/15th-sunflower"
+        href="/blog/events/16th-tropical-waterlily"
         className="text-3xl text-primary-400 dark:hover:text-primary-300"
       >
         こちら
