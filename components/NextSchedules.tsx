@@ -14,6 +14,26 @@ const NextSchedules = () => {
         こちら
       </a>
       <br /> <br />
+      次々回は{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        9/15 (日)
+      </span> に{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        神代植物公園 大温室夜間公開
+      </span>{' '}
+      にて{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        熱帯スイレン・シクンシ・イエライシャン
+      </span>{' '}
+      を見る予定です！ <br /> <br />
+      イベント詳細ページは{' '}
+      <a
+        href="/blog/events/16th-tropical-waterlily"
+        className="text-3xl text-primary-400 dark:hover:text-primary-300"
+      >
+        こちら
+      </a>
+      <br /> <br />
       申し込みは「花を見る会」{' '}
       <a
         href="https://peatix.com/group/16297931/events"
