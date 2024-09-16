@@ -805,7 +805,7 @@ export default function Home({ posts }) {
           </div>
           <div className="pt-8 pb-8">
             <Link
-              href="/blog/13th-lily"
+              href="/blog/14th-lotus-waterlily"
               className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               第 14 回 ハス・オニバス・アサザ (@水元公園)
@@ -840,6 +840,49 @@ export default function Home({ posts }) {
                 <Image
                   alt="ハス・オニバス・アサザ 4"
                   src="/static/images/lotus-waterlily/lotus-waterlily-67.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/16th-tropical-waterlily"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 16 回 熱帯スイレン・サガリバナ・パラグアイオニバス (@神代植物公園)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="熱帯スイレン・サガリバナ・パラグアイオニバス 1"
+                  src="/static/images/tropical-waterlily/tropical-waterlily-20.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="熱帯スイレン・サガリバナ・パラグアイオニバス 2"
+                  src="/static/images/tropical-waterlily/tropical-waterlily-29.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="熱帯スイレン・サガリバナ・パラグアイオニバス 3"
+                  src="/static/images/tropical-waterlily/tropical-waterlily-48.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="熱帯スイレン・サガリバナ・パラグアイオニバス 4"
+                  src="/static/images/tropical-waterlily/tropical-waterlily-56.jpg"
                   width={420}
                   height={800}
                 />
