@@ -12,7 +12,9 @@ const NextSchedules = () => {
       </span>{' '}
       に <span className="text-3xl text-primary-500 dark:hover:text-primary-400">大田黒公園？</span>{' '}
       にて <span className="text-3xl text-primary-500 dark:hover:text-primary-400">モミジ</span>{' '}
-      を見る予定です！ (紅葉の状況に応じて調整します) <br /> <br />
+      を見る予定です！
+      <br />
+      (紅葉の状況に応じて調整します) <br /> <br />
       <br /> <br />
       申し込みは「花を見る会」{' '}
       <a
