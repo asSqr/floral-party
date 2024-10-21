@@ -889,6 +889,49 @@ export default function Home({ posts }) {
               </div>
             </div>
           </div>
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/17th-autumn-roses"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 17 回 秋バラ (@旧古河庭園)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="秋バラ 1"
+                  src="/static/images/autumn-roses/autumn-roses-30.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="秋バラ 2"
+                  src="/static/images/autumn-roses/autumn-roses-69.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="秋バラ 3"
+                  src="/static/images/autumn-roses/autumn-roses-147.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="秋バラ 4"
+                  src="/static/images/autumn-roses/autumn-roses-153.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
