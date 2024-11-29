@@ -932,6 +932,49 @@ export default function Home({ posts }) {
               </div>
             </div>
           </div>
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/18th-camellia"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 18 回 ツバキ (@伊豆大島)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ツバキ 1"
+                  src="/static/images/camellia/camellia-68.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ツバキ 2"
+                  src="/static/images/camellia/camellia-84.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ツバキ 3"
+                  src="/static/images/camellia/camellia-103.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="ツバキ 4"
+                  src="/static/images/camellia/camellia-104.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

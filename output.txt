@@ -1,0 +1,9 @@
+  <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+    ![ツバキ 433](/static/images/camellia/camellia-433.jpg)
+  </figure>
+  <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+    ![ツバキ 434](/static/images/camellia/camellia-434.jpg)
+  </figure>
+  <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+    ![ツバキ 435](/static/images/camellia/camellia-435.jpg)
+  </figure>
