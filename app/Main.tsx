@@ -975,6 +975,49 @@ export default function Home({ posts }) {
               </div>
             </div>
           </div>
+          <div className="pt-8 pb-8">
+            <Link
+              href="/blog/19th-maple"
+              className="text-2xl text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              第 19 回 モミジ (@大田黒公園)
+            </Link>
+
+            <div className="pt-8 flex flex-wrap overflow-hidden xl:-mx-2">
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="モミジ 1"
+                  src="/static/images/maple/maple-8.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="モミジ 2"
+                  src="/static/images/maple/maple-10.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="モミジ 3"
+                  src="/static/images/maple/maple-17.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+              <div className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
+                <Image
+                  alt="モミジ 4"
+                  src="/static/images/maple/maple-18.jpg"
+                  width={420}
+                  height={800}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
