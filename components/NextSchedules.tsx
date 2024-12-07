@@ -8,26 +8,14 @@ const NextSchedules = () => {
         ボタン・アイスチューリップ
       </span>{' '}
       を見る予定です！ <br /> <br />
-      イベント詳細ページは{' '}
-      <a
-        href="https://peatix.com/event/4220122/view"
-        className="text-3xl text-primary-400 dark:hover:text-primary-300"
-      >
-        こちら
-      </a>
       次々回は{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">2/9 (日)</span> に{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        2/9 (日)
+      </span> に{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">昭和記念公園</span>{' '}
       にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">フクジュソウ</span>{' '}
       を見る予定です！ <br /> <br />
-      イベント詳細ページは{' '}
-      <a
-        href="https://peatix.com/event/4220122/view"
-        className="text-3xl text-primary-400 dark:hover:text-primary-300"
-      >
-        こちら
-      </a>
       <br /> <br />
       申し込みは「花を見る会」{' '}
       <a
