@@ -7,6 +7,13 @@ const NextSchedules = () => {
       にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">フクジュソウ</span>{' '}
       を見る予定です！ <br /> <br />
+      イベント詳細ページは{' '}
+      <a
+        href="https://21th-amur-adonis.peatix.com"
+        className="text-3xl text-primary-400 dark:hover:text-primary-300"
+      >
+        こちら
+      </a>
       <br /> <br />
       申し込みは「花を見る会」{' '}
       <a
