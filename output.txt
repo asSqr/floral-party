@@ -1,9 +1,9 @@
   <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-    ![ツバキ 261](/static/images/peony-ice-tulip/peony-ice-tulip-261.jpg)
+    ![フクジュソウ 17](/static/images/amur-adonis/amur-adonis-17.jpg)
   </figure>
   <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-    ![ツバキ 262](/static/images/peony-ice-tulip/peony-ice-tulip-262.jpg)
+    ![フクジュソウ 18](/static/images/amur-adonis/amur-adonis-18.jpg)
   </figure>
   <figure className="my-1 w-full overflow-hidden px-2 xl:my-1 xl:w-1/2 xl:px-2">
-    ![ツバキ 263](/static/images/peony-ice-tulip/peony-ice-tulip-263.jpg)
+    ![フクジュソウ 19](/static/images/amur-adonis/amur-adonis-19.jpg)
   </figure>
