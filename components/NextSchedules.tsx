@@ -14,9 +14,12 @@ const NextSchedules = () => {
         className="text-3xl text-primary-400 dark:hover:text-primary-300"
       >
         こちら
-      </a>
+      </a>{' '}
+      <br /> <br />
       次々回は{' '}
-      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">4/13 (日)</span> に{' '}
+      <span className="text-3xl text-primary-500 dark:hover:text-primary-400">
+        4/13 (日)
+      </span> に{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">高尾山</span> にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">スミレ</span>{' '}
       を見る予定です！ <br /> <br />
