@@ -23,6 +23,14 @@ const NextSchedules = () => {
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">高尾山</span> にて{' '}
       <span className="text-3xl text-primary-500 dark:hover:text-primary-400">スミレ</span>{' '}
       を見る予定です！ <br /> <br />
+      イベント詳細ページは{' '}
+      <a
+        href="https://23th-violet.peatix.com"
+        className="text-3xl text-primary-400 dark:hover:text-primary-300"
+      >
+        こちら
+      </a>{' '}
+      <br /> <br />
       申し込みは「花を見る会」{' '}
       <a
         href="https://peatix.com/group/16297931/events"
